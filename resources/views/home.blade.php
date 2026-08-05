@@ -10,3 +10,4 @@ Titolo pagina Home
         sono il main della home
     </p>
 </div>
+@endsection
