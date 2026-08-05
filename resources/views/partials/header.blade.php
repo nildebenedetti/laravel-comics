@@ -16,25 +16,25 @@
                     <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" href="{{ route('home') }}">characters</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">comics</a>
+                    <a class="nav-link disabled" href="#" >comics</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">movies</a>
+                    <a class="nav-link disabled" href="#">movies</a>
                     </li>                             
                     <li class="nav-item">
-                    <a class="nav-link" href="#">collectibles</a>
+                    <a class="nav-link disabled" href="#">collectibles</a>
                     </li>                             
                     <li class="nav-item">
-                    <a class="nav-link" href="#">videos</a>
+                    <a class="nav-link disabled" href="#">videos</a>
                     </li>                             
                     <li class="nav-item">
-                    <a class="nav-link" href="#">fans</a>
+                    <a class="nav-link disabled" href="#">fans</a>
                     </li>                             
                     <li class="nav-item">
-                    <a class="nav-link" href="#">news</a>
+                    <a class="nav-link disabled" href="#">news</a>
                     </li>                             
                     <li class="nav-item">
-                    <a class="nav-link" href="#">shops</a>
+                    <a class="nav-link disabled" href="#">shops</a>
                     </li> 
                 </ul>
             </div>
