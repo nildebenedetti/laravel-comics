@@ -4,6 +4,10 @@
 Titolo pagina Home
 @endsection
 
+                @php
+                    $cards = config('cards');
+                @endphp
+
 @section("content")
 
 <main>
@@ -18,8 +22,12 @@ Titolo pagina Home
     <!-- card collection -->
     <section class="comics-colelction">
         <div class="card-container">
-            <div class="row">
+            <div class="row g-3">
                 <!-- cards -->
+                    @foreach ($cards as $card)
+                    <x-card :thumb="$card['thumb']" :title="$card['title']">
+                    </x-card>
+                    @endforeach
             </div>
         </div>
     </section>
