@@ -3,7 +3,7 @@
         <div class="navbar container-fluid mx-3 d-flex justify-space-between">
             <div class="logo">
                 <a class="navbar-brand" href="#">
-                    <img class="navbar-logo" src="/images/dc-logo.png" alt="DC logo">
+                    <img class="navbar-logo" src="{{ Vite::asset('resources/images/dc-logo.png')}}" alt="DC logo">
                 </a>
             </div>
             <div class="nav-links">
