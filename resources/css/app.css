@@ -1,1 +1,26 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+/* ======= FONTS ======= */
+
+
+
+/* ====== NAVBAR ====== */
+
+.navbar {
+    text-transform: uppercase;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #50504E;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link.active {
+    border-bottom: 5px solid #067DF0;
+}
+
+.navbar-logo {
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
