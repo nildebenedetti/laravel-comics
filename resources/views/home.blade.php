@@ -11,6 +11,7 @@ Home
 @section("content")
 
 <main class="mx-auto px-2">
+
     <!-- hero banner --> 
     <section class="banner">
         <div class="banner">
@@ -31,6 +32,12 @@ Home
             </div>
         </div>
     </section>
+    <x-banner 
+        badge="* BAM! * DC COMICS VAULT"
+        title="EXPLORE THE"
+        highlight="DC UNIVERSE!"
+        subtitle="POW! Dive into the official comic catalog, rendered in real-time with PHP muscle and Blade magic." 
+    />
 </main>
 
 @endsection

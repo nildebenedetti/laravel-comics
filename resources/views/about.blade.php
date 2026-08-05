@@ -11,6 +11,12 @@ About
 @section("content")
 
 <main class="container my-5">
+    <x-banner 
+        badge="* WHOOSH * ORIGIN STORY"
+        title="BEHIND THE"
+        highlight="PANELS"
+        subtitle="ZAP! Leveling up full-stack powers, mastering Blade components, and crushing bugs one commit at a time." 
+    />
     <div class="p-5 text-white rounded-4 shadow-lg bg-dc-dark">
         
         <!-- Badge -->
