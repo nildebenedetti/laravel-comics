@@ -24,8 +24,8 @@ Titolo pagina Home
         <div class="card-container">
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
                 <!-- cards -->
-                    @foreach ($cards as $card)
-                    <x-card :thumb="$card['thumb']" :title="$card['title']">
+                    @foreach ($comics as $comic)
+                    <x-card :thumb="$comic['thumb']" :title="$comic['title']">
                     </x-card>
                     @endforeach
             </div>
