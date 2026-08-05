@@ -69,3 +69,13 @@ footer a {
     aspect-ratio: 2/3;
     object-position: top;
 }
+
+/* Custom DC Utilities */
+.bg-dc-dark { background-color: #1c1c1c; }
+.bg-dc-card { background-color: #2b2b2b; }
+.bg-dc-blue { background-color: #0282f9; }
+
+.text-dc-blue { color: #0282f9; }
+
+.border-dc-blue { border-color: #0282f9 !important; }
+.tracking-wide { letter-spacing: 1px; }

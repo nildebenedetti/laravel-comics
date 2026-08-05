@@ -8,3 +8,7 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 })->name('home');
 
+Route::get('/about', function() {
+
+    return view('about');
+})->name('about');
