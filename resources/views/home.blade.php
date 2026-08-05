@@ -10,7 +10,7 @@ Titolo pagina Home
 
 @section("content")
 
-<main>
+<main class="mx-auto px-2">
     <!-- hero banner --> 
     <section class="banner">
         <div class="banner">
@@ -22,7 +22,7 @@ Titolo pagina Home
     <!-- card collection -->
     <section class="comics-colelction">
         <div class="card-container">
-            <div class="row g-3">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
                 <!-- cards -->
                     @foreach ($cards as $card)
                     <x-card :thumb="$card['thumb']" :title="$card['title']">

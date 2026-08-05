@@ -61,3 +61,11 @@ footer a {
     top: 50%;                    /* Centra il punto superiore al 50% dell'altezza */
     transform: translateY(-50%); /* Trasla il logo verso l'alto del 50% della SUA altezza per centrarlo perfettamente */
 }
+
+/*==== card ====*/
+.card img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    object-position: top;
+}
